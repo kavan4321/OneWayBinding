@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OneWayBinding.OneWay.Page1"
+             Title="Page1" 
+             Padding="20" 
+             BackgroundColor="LightPink">
+   
+    <AbsoluteLayout >
+        <BoxView 
+            CornerRadius="20"
+            Color="White"
+            AbsoluteLayout.LayoutBounds="0.5,0.5,1,1"
+            AbsoluteLayout.LayoutFlags="All"
+            ></BoxView>
+        <Label            
+            FontAttributes="Bold"
+            FontSize="45"
+            AbsoluteLayout.LayoutBounds="0.2,0.06,AutoSize,AutoSize"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            Text="Find your&#x0a;dream jobs"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label 
+            
+            FontAttributes="Bold"
+            FontSize="20"
+            AbsoluteLayout.LayoutBounds="0.2,0.25,AutoSize,AutoSize"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            Text="Discover 876 open position"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Image
+            Source="pageone.jpg"
+            AbsoluteLayout.LayoutBounds="0.5,0.4,AutoSize,AutoSize"
+            AbsoluteLayout.LayoutFlags="PositionProportional"></Image>
+        <Label 
+            FontSize="18"
+            AbsoluteLayout.LayoutBounds="0.1,0.6,AutoSize,AutoSize"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            Text="Are you looking for:"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button
+            AbsoluteLayout.LayoutBounds="0.5,0.7"
+            ></Button>
+
+    </AbsoluteLayout>
+</ContentPage>
